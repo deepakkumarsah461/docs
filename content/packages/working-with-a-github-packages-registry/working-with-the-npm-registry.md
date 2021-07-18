@@ -80,7 +80,7 @@ $ npm login --scope=@<em>OWNER</em> --registry=https://{% ifversion fpt %}npm.pk
 {% ifversion ghes %}
 If your instance has subdomain isolation disabled:
 
-```shell
+```shell.
 $ npm login --scope=@<em>OWNER</em> --registry=https://<em>HOSTNAME</em>/_registry/npm/
 > Username: <em>USERNAME</em>
 > Password: <em>TOKEN</em>
